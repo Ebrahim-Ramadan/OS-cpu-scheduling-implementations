@@ -4,6 +4,7 @@ const processes = [
     { pid: 3, arrivalTime: 2, burstTime: 9 },
     { pid: 4, arrivalTime: 3, burstTime: 5 },
 ];
+//just fill out/replace with the new processes in the other examples
 
 const findShortestRemainingTime = (readyQueue) => {
     let shortestProcess = readyQueue[0];
